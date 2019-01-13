@@ -40,3 +40,5 @@ docker run --rm \
   -e PROJECT_DIR=$container_project \     # the project dir ($PWD) in the host
   adzerk/boot-clj-minimal:latest runboot boot build
 ```
+
+[1]: https://github.com/boot-clj/boot

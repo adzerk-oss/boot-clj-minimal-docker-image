@@ -29,4 +29,4 @@ docker run --rm \
   -e USER_GID=$USER_GID \
   -e USER_HOME=$HOME \
   -e PROJECT_DIR=$container_project \
-  adzerk/boot-clj-minimal:latest boot ${argz}
+  adzerk/boot-clj-minimal:0.1.1 boot ${argz}
